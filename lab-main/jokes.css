@@ -1,0 +1,63 @@
+body {
+    font-family: Arial;
+    background-color: #e0f2f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gray;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.joke-box {
+    background-color: lightyellow;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    min-height: 120px;
+}
+
+#setup {
+    color: #333;
+    font-size: 20px;
+}
+
+#punchline {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+
+

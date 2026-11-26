@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    width: 500px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: lightyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.snake {
+    background: #ffaaaa;
+}
+
+.ladder {
+    background: #aaffaa;
+}
+
+.players {
+    font-size: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px 16px;
+    font-family: Arial, sans-serif;
+    background: #add8e6;
+}
+
+.container {
+    width: min(400px, 100%);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #00008b;
+}
+
+.task-form {
+    display: flex;
+    gap: 8px;
+}
+
+#taskInput {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.task-form button {
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #00008b;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    margin: 16px 0 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #d3d3d3;
+    border-radius: 4px;
+}
+
+.task-text {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+li button {
+    padding: 8px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete {
+    background: #c62828;
+}
+
+.move {
+    background: #2e7d32;
+}
+
+

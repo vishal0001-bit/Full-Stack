@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#result {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px lightgray;
+    text-align: left;
+}
+
+.card h3 {
+    color: darkblue;
+}
+
+.card p {
+    color: #555;
+    word-break: break-word;
+}
+
+.card a {
+    color: blue;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+#message {
+    color: darkgreen;
+}
+
